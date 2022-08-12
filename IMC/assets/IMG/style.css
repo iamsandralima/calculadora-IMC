@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
+/* configurações gerais */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'signika', sans-serif;
+  text-decoration:none;
+}
+
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculadora-img {
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-top: auto;
+  margin-bottom: 1rem;
+
+
+
+}
+ 
+body {
+  background-image: url(bg.png);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* box geral */
+
+.box {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0. 20px;
+  height: 600px;
+  border: 10px;
+
+}
+
+/* box left */
+
+.left  {
+  width: 100%;
+  margin-right: 50px;
+  margin-left: 20px;
+  border: 0;
+  color: rgb(4, 58, 175);
+  
+}
+
+.left input{
+  width: 60%;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 15px;
+  margin-bottom: 25px;
+  font-family: 'signika', Arial, sans-serif;
+  font-size: 1rem;
+  outline: none;
+  background: linear-gradient(62.01deg, rgb(64, 123, 255)  9.99%,  rgba(255, 255, 255, 0.14) 110%);
+  backdrop-filter: blur(70px);
+
+}
+
+.button {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, rgb(64, 123, 255) 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: 000;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 1.2rem;
+  color: floralwhite;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  margin-bottom: auto;
+}
+
+.button:active,
+.button:hover {
+  outline: 0;
+}
+
+/* box right */
+
+.right{
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 20px;
+
+}
+
+.right p{
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+
+}
+
+/* Footer */
+
+.divider{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  height: 2px;
+  background: linear-gradient(to left, rgb(8, 228, 198), #407bff);
+  align-items: center;
+}
+
+.footer_copy {
+  text-align: center;
+  font-family: 'signika', Arial, sans-serif;
+  font-size: 1rem;
+  color: var(--font-color-title);
+  margin-bottom: auto;
+}
+
+
+
+@media only screen  and (max-width: 950px){
+  .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+/* celular- visualização/*/
+@media only screen  and (max-width: 600px){
+
+
+  .left{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-right: -5rem;
+  }
+
+  .right {
+    display: none;
+  }
+   
+ 
+}

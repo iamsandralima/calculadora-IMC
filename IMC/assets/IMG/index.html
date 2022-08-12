@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora IMC</title>
+
+  <!--CSS File-->
+  <link rel="stylesheet" href="style.css">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="fav.png" type="image/x-icon"/>
+</head>
+<body>
+  <div class="container"> 
+  <!--box geral-->
+  <div class="box"> 
+  <!--box left-->
+    <div class="left">
+      <img src="cal.svg" class="calculadora-img" alt="calculadora ilustração">
+      <h1>Calcule seu IMC</h1><br>
+      <label for="input-weight"></label>
+      <input id="input-weight" type="number" placeholder="Informe seu peso (kg):" step="0.1">
+
+      <label for="input-height"></label>
+      <input id="input-height" type="number" placeholder="Informe sua altura (m):"step="0.01">
+      
+      <button onclick="calcBMI()"class="button">Calcular</button>
+      <p id="bmi-result"><br></p>
+      <p id="classification-result"></p>
+    </div>
+
+  <!--box right-->
+    <div class="right">
+      <p>O Índice de Massa Corporal, é um cálculo simples que permite medir se alguém 
+        está ou não com o peso ideal.</p>
+      <img src="choices.svg" class="mulher-img" alt="mulher ilustração">
+      </div>
+    </div>
+  </div>
+  </div class="container"> 
+  <!--Footer-->
+  <footer>
+    <div class="divider"></div>
+    <p class="footer_copy"> &#169; Sandra Lima 2022</p>
+  </footer>
+  <!--Scripit File-->
+  <script defer src="/assets/IMG/script.js"></script>
+
+</body>
+</html>
