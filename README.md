@@ -2,7 +2,6 @@
 The BMI calculator indicates your body mass index.
 
 # Web Version
-![IMC](https://user-images.githubusercontent.com/107657763/184283975-0f861881-cb96-4817-96ca-42dad25b8435.gif)
 ![Captura de Tela 2022-08-12 às 01 24 39](https://user-images.githubusercontent.com/107657763/184284879-91367a3d-3fb2-4978-b587-ae9dd9a25176.png)
 
 
